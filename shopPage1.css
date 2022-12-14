@@ -79,7 +79,7 @@
     justify-content: center;  
 }
 .menuItem{
-    height: 50px;
+    min-height: 50px;
     font-size: 20px;
     background-color: rgb(247, 246, 235);
 }
