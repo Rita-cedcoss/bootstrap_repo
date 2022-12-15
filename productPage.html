@@ -1,230 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="productPage.css" rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="productPage.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-
-    <title>Document</title>
+  <title>Document</title>
 </head>
 <body>
-    <!-- navbar top -->
+  <!-- navbar top -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-        <div class="container">
-          <a class="navbar-brand" href="#"><img class="logo" src="https://jevelin.shufflehound.com/hello/wp-content/uploads/sites/22/2016/05/jevelin-logo-v4-dark.png" ></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse navbar__top" id="navbarNav">
-            <ul class="navbar-nav fs-5">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home  <i class="bi bi-chevron-down" style="font-size:10px;color:rgb(230, 59, 59)"></i> </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Blog  <i class="bi bi-chevron-down" style="font-size:10px;color:rgb(230, 59, 59)"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Portfolio <i class="bi bi-chevron-down" style="font-size:10px;color:rgb(230, 59, 59)"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link shopnav active " href="#">Shop<span class="shopnew">New</span> <i class="bi bi-chevron-down shopmr" style="font-size:10px;color:rgb(230, 59, 59)"></i></a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Variations <i class="bi bi-chevron-down" style="font-size:10px;color:rgb(230, 59, 59)"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Elements  <i class="bi bi-chevron-down" style="font-size:10px;color:rgb(230, 59, 59)"></i></a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link active" href="#"><i class="bi bi-cart2 cartIcon"><span class="carttop">0</span></i>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#"><i class="bi bi-search"></i></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- navbar bottom -->
-      <nav class="navbar navbar-expand navbar-light bg-light border-bottom">
-        <div class="container">  
-          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img class="logo"
+          src="https://jevelin.shufflehound.com/hello/wp-content/uploads/sites/22/2016/05/jevelin-logo-v4-dark.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navbar__top" id="navbarNav">
+        <ul class="navbar-nav fs-5">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home <i class="bi bi-chevron-down"
+                style="font-size:10px;color:rgb(230, 59, 59)"></i> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Blog <i class="bi bi-chevron-down"
+                style="font-size:10px;color:rgb(230, 59, 59)"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Portfolio <i class="bi bi-chevron-down"
+                style="font-size:10px;color:rgb(230, 59, 59)"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link shopnav active " href="#">Shop<span class="shopnew">New</span> <i
+                class="bi bi-chevron-down shopmr" style="font-size:10px;color:rgb(230, 59, 59)"></i></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Variations <i class="bi bi-chevron-down"
+                style="font-size:10px;color:rgb(230, 59, 59)"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Elements <i class="bi bi-chevron-down"
+                style="font-size:10px;color:rgb(230, 59, 59)"></i></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="#"><i class="bi bi-cart2 cartIcon"><span class="carttop">0</span></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#"><i class="bi bi-search"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar bottom -->
+  <nav class="navbar navbar-expand navbar-light bg-light border-bottom">
+    <div class="container">
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button> -->
-          <div class="pt-5 pb-3" id="navbarNavDropdown">
-            <ul class="navbar-nav fs-lg-5 fs-md-5 fs-sm-3">
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#">Home <i class="bi bi-chevron-right active"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Shop <i class="bi bi-chevron-right active"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Andriod Phone</a>
-              </li>
-            </ul>
-          </div>
+      <div class="pt-5 pb-3" id="navbarNavDropdown">
+        <ul class="navbar-nav fs-lg-5 fs-md-5 fs-sm-3">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Home <i class="bi bi-chevron-right active"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shop <i class="bi bi-chevron-right active"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Andriod Phone</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- product detail block -->
+  <!-- <div class="container-fluid "> -->
+  <div class="container p-5 d-lg-flex  justify-content-around d-md-block">
+    <div class="col-lg-5  col-md-12 "><img class="img-fluid mt-3"
+        src="https://www.vodafone.com.au/images/devices/apple/iphone-14-pro-max/iphone-14-pro-max-deep-purple-feature1-m.jpg">
+    </div>
+    <div class="col-lg-5 col-md-12">
+      <h2 class="fw-bolder">Android Phone</h2>
+      <div class="d-flex justify-content-between pt-2">
+        <p class="fw-bolder fs-3"><del class="text-secondary fs-4">$199.00</del>-$179</p>
+        <div>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <span class="fw-bold">(1 review)</span>
+        </div>
+
+      </div>
+      <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptas adipisci
+        culpa debitis aliquid, accusantium ratione recusandae vero at officia!
+      </p>
+      <div class="d-flex justify-content-between mt-4 ">
+        <div>
+          <button class="border-0 rounded-circle"><i class="bi bi-arrow-down-short fs-4"></i></button>
+          <button class="border-0 rounded-circle bg-light fw-bolder fs-4">1</button>
+          <button class="border-0 rounded-circle"><i class="bi bi-arrow-up-short fs-4"></i></button>
+        </div>
+        <div>
+          <button class="btn btn-primary btn-lg-lg btn-md-md btn-sm-sm fw-bold"><i class="bi bi-cart2 px-3"></i>Add to
+            cart</button>
+        </div>
+      </div>
+      <div class="mt-4">
+        <p class="fs-5 fw-bolder">SKU : <span class="text-secondary">12</span></p>
+        <p class="fs-5 fw-bolder">Category :<span class="text-primary"> Phones</span></p>
+        <p class="fs-5 fw-bolder">Tag : <span class="text-secondary">Screen</span></p>
+        <button class="border-0 rounded  fw-bolder fs-5"><i class="bi bi-share p-2"></i> Share</button>
+      </div>
+
+
+    </div>
+
+  </div>
+  <!-- Product Description -->
+  <div class="conatiner  d-lg-flex justify-content-md-around d-md-block m-5">
+    <div class="col-lg-5"></div>
+    <div class="col-lg-5">
+      <nav>
+        <div class="nav border-bottom " id="nav-tab" role="tablist">
+          <button class="nav-link active prodDescription border-0 border-bottom  bg-light" id="nav-home-tab"
+            data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+            aria-selected="true">Description</button>
+          <button class="nav-link border-0 bg-light prodDescription" id="nav-profile-tab" data-bs-toggle="tab"
+            data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+            aria-selected="false">Reviews(1)</button>
+          <!-- <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button> -->
         </div>
       </nav>
-      <!-- product detail block -->
-      <!-- <div class="container-fluid "> -->
-        <div class="container p-5 d-lg-flex  justify-content-around d-md-block">
-            <div class="col-lg-5  col-md-12 "><img class="img-fluid mt-3" src="https://www.vodafone.com.au/images/devices/apple/iphone-14-pro-max/iphone-14-pro-max-deep-purple-feature1-m.jpg" ></div>
-            <div class="col-lg-5 col-md-12">
-                <h2 class="fw-bolder">Android Phone</h2>
-                <div class="d-flex justify-content-between pt-2">
-                    <p class="fw-bolder fs-3"><del class="text-secondary fs-4">$199.00</del>-$179</p>
-                    <div>
-                        <i class="bi bi-star-fill text-warning"></i>
-                        <i class="bi bi-star-fill text-warning"></i>
-                        <i class="bi bi-star-fill text-warning"></i>
-                        <i class="bi bi-star-fill text-warning"></i>
-                        <i class="bi bi-star-fill text-warning"></i>
-                        <span class="fw-bold">(1 review)</span>
-                    </div>
-                   
-                </div>
-                <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptas adipisci 
-                    culpa debitis aliquid, accusantium ratione recusandae vero at officia!
-                </p>
-                <div class="d-flex justify-content-between mt-4 ">
-                    <div>
-                        <button class="border-0 rounded-circle"><i class="bi bi-arrow-down-short fs-4"></i></button>
-                        <button class="border-0 rounded-circle bg-light fw-bolder fs-4">1</button>
-                        <button class="border-0 rounded-circle"><i class="bi bi-arrow-up-short fs-4"></i></button>
-                    </div>
-                    <div>
-                        <button class="btn btn-primary btn-lg-lg btn-md-md btn-sm-sm fw-bold"><i class="bi bi-cart2 px-3"></i>Add to cart</button>
-                    </div>
-                </div>
-                <div class="mt-4">
-                <p class="fs-5 fw-bolder">SKU : <span class="text-secondary">12</span></p>
-               <p class="fs-5 fw-bolder">Category :<span class="text-primary"> Phones</span></p>
-               <p class="fs-5 fw-bolder">Tag : <span class="text-secondary">Screen</span></p>
-               <button class="border-0 rounded  fw-bolder fs-5"><i class="bi bi-share p-2"></i> Share</button>
-            </div>
-               
-               
-            </div>
-            
+      <div class="tab-content pb-5" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+          <p class="pt-4"> Description Lorem ipsum dolor, sit amet consectetur adipisicing elit. In praesentium
+            assumenda
+            repudiandae maxime deserunt cumque distinctio ipsum neque ullam illo!
+          </p>
         </div>
-        <!-- Product Description -->
-        <div class="conatiner  d-lg-flex justify-content-md-around d-md-block m-5">
-            <div class="col-lg-5"></div>
-            <div class="col-lg-5" >
-                <nav>
-                    <div class="nav border-bottom " id="nav-tab" role="tablist">
-                      <button class="nav-link active prodDescription border-0 border-bottom  bg-light" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Description</button>
-                      <button class="nav-link border-0 bg-light prodDescription" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Reviews(1)</button>
-                      <!-- <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button> -->
-                    </div>
-                  </nav>
-                  <div class="tab-content pb-5" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                        <p class="pt-4"> Description Lorem ipsum dolor, sit amet consectetur adipisicing elit. In praesentium assumenda 
-                            repudiandae maxime deserunt cumque distinctio ipsum neque ullam illo!     
-                        </p>             
-                     </div>
-                        
-                            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                        <p class="pt-4">Reviews Lorem ipsum dolor sit amet consec
-                        tetur adipisicing elit. Vero, consequuntur fugiat excepturi nesciunt enim officia fuga dignissimos impedit possimus nostrum!
-                    </p>
-                    </div>
-                
-                  </div>
-            </div>
+
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+          <p class="pt-4">Reviews Lorem ipsum dolor sit amet consec
+            tetur adipisicing elit. Vero, consequuntur fugiat excepturi nesciunt enim officia fuga dignissimos impedit
+            possimus nostrum!
+          </p>
         </div>
-        <!-- shipping and payment detail -->
-        <div class="container d-lg-flex justify-content-lg-around p-5">
-            <div class="col-lg-3  d-lg-flex justify-content-center text-center">
-                <i class="bi bi-cart2 fs-2 px-4 text-primary"></i>
-                <div class="px-2 pt-2 ">
-                    <p class="fs-5 fw-bolder">Free Shipping</p>
-                    <p class="fs-6">For Purchase over $50</p>
-                </div>
-            </div>
-            <div class="col-lg-3 d-lg-flex justify-content-center text-center">
-                <i class="bi bi-shield-x fs-2 px-4 text-primary"></i>
-                <div class="px-2 pt-2 ">
-                    <p class="fs-5 fw-bolder"> Secure Payment</p>
-                    <p class="fs-6">For online transaction</p>
-                </div>
-            </div>
-            <div class="col-lg-3 d-lg-flex justify-content-center text-center">
-                <i class="bi bi-lightning-charge fs-2 px-4 text-primary"></i>
-                <div class="px-2 pt-2 ">
-                    <p class="fs-5 fw-bolder">Same Day Shipping</p>
-                    <p class="fs-6">For Purchase over $50</p>
-                </div>
-            </div>
-        </div>
-        <!-- footer top -->
-        <div class="container-fluid bg-dark  p-5">
-         <div class="container d-lg-flex justify-content-md-between d-md-flex  d-sm-block">
-            <div class="text-light">
-                <h1>Jevelin</h1>
-            </div>
-            <div class="text-light">
-                <i class="bi bi-twitter text-light fs-4 px-2"></i>
-                <i class="bi bi-instagram text-light fs-4 px-2"></i>
-                <i class="bi bi-youtube  text-light fs-4 px-2"></i>
-                <i class="bi bi-whatsapp text-light fs-4 px-2"></i>
-            </div>
-         </div>
-        </div>
-        <!-- footer mid -->
-        <div class="container-fluid bg-dark">
-        <div class="conatiner ">
-            <div class="autofill">
-            <div class="item1">
-                <h3 class="text-light fw-bolder"> Start Crafting Epic Website Today</h3>
-                <button class="btn btn-primary mt-3">Purchase Theme</button>
-            </div>
-            <div class="item1">
-                <h5 class="text-light fw-bolder"> Useful</h5>
-                <p class="text-light">Lorem ipsum dolor sit, amet consectetur 
-                    adipisicing elit. Quas, consequuntur.
-                </p>
-            </div>
-            <div class="item1">
-                <h5 class="text-light fw-bolder">Keep In Touch</h5>
-                <p class="text-light">Lorem ipsum dolor sit, amet consectetur 
-                    adipisicing elit. Quas, consequuntur.
-                </p>
-            </div>
-            <div class="item1">
-                <h5 class="text-light fw-bolder">Sign-up For newsletter</h5>
-                <div class="row ">
-                    <input type="text" class="col-5 bg-transparent border m-2" placeholder="E-mail">
-                    <button class="col-3 m-2 btn btn-outline-light">Send</button>
-                </div>
-            </div>
-            
-        </div>
+
+      </div>
     </div>
+  </div>
+  <!-- shipping and payment detail -->
+  <div class="container d-lg-flex justify-content-lg-around p-5">
+    <div class="col-lg-3  d-lg-flex justify-content-center text-center">
+      <i class="bi bi-cart2 fs-2 px-4 text-primary"></i>
+      <div class="px-2 pt-2 ">
+        <p class="fs-5 fw-bolder">Free Shipping</p>
+        <p class="fs-6">For Purchase over $50</p>
+      </div>
+    </div>
+    <div class="col-lg-3 d-lg-flex justify-content-center text-center">
+      <i class="bi bi-shield-x fs-2 px-4 text-primary"></i>
+      <div class="px-2 pt-2 ">
+        <p class="fs-5 fw-bolder"> Secure Payment</p>
+        <p class="fs-6">For online transaction</p>
+      </div>
+    </div>
+    <div class="col-lg-3 d-lg-flex justify-content-center text-center">
+      <i class="bi bi-lightning-charge fs-2 px-4 text-primary"></i>
+      <div class="px-2 pt-2 ">
+        <p class="fs-5 fw-bolder">Same Day Shipping</p>
+        <p class="fs-6">For Purchase over $50</p>
+      </div>
+    </div>
+  </div>
+  <!-- footer top -->
+  <div class="container-fluid bg-dark  p-5">
+    <div class="container d-lg-flex justify-content-md-between d-md-flex  d-sm-block">
+      <div class="text-light">
+        <h1>Jevelin</h1>
+      </div>
+      <div class="text-light">
+        <i class="bi bi-twitter text-light fs-4 px-2"></i>
+        <i class="bi bi-instagram text-light fs-4 px-2"></i>
+        <i class="bi bi-youtube  text-light fs-4 px-2"></i>
+        <i class="bi bi-whatsapp text-light fs-4 px-2"></i>
+      </div>
+    </div>
+  </div>
+  <!-- footer mid -->
+  <div class="container-fluid bg-dark">
+    <div class="conatiner ">
+      <div class="autofill">
+        <div class="item1">
+          <h3 class="text-light fw-bolder"> Start Crafting Epic Website Today</h3>
+          <button class="btn btn-primary mt-3">Purchase Theme</button>
         </div>
-        <!-- footer bootom -->
-        <div class="conatiner-fluid bg-dark p-5">
-           <div class="container text-light d-lg-flex justify-content-between d-md-block">
-            <div class="col-lg-6 col-md-12  text-lg-start text-md-center  text-sm-center"><p>@2021.Jevelin.crafted by <span class="fw-bolder">Shufflehound</span></p></div>
-            <div class="col-lg-6  col-md-12 text-lg-end  text-center text-md-start text-sm-center"><span class="px-4">Privacy Policy</span> <span>Term and Conditions</span></div>
-            <div></div>
-           </div>
+        <div class="item1">
+          <h5 class="text-light fw-bolder"> Useful</h5>
+          <p class="text-light">Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Quas, consequuntur.
+          </p>
         </div>
-    
+        <div class="item1">
+          <h5 class="text-light fw-bolder">Keep In Touch</h5>
+          <p class="text-light">Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Quas, consequuntur.
+          </p>
+        </div>
+        <div class="item1">
+          <h5 class="text-light fw-bolder">Sign-up For newsletter</h5>
+          <div class="row ">
+            <input type="text" class="col-5 bg-transparent border m-2" placeholder="E-mail">
+            <button class="col-3 m-2 btn btn-outline-light">Send</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- footer bootom -->
+  <div class="conatiner-fluid bg-dark p-5">
+    <div class="container text-light d-lg-flex justify-content-between d-md-block">
+      <div class="col-lg-6 col-md-12  text-lg-start text-md-center  text-sm-center">
+        <p>@2021.Jevelin.crafted by <span class="fw-bolder">Shufflehound</span></p>
+      </div>
+      <div class="col-lg-6  col-md-12 text-lg-end  text-center text-md-start text-sm-center"><span class="px-4">Privacy
+          Policy</span> <span>Term and Conditions</span></div>
+      <div></div>
+    </div>
+  </div>
+
 </body>
+
 </html>
