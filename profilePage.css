@@ -1,0 +1,17 @@
+.navbar__grow{
+    flex-grow: 0 !important;
+}
+.navbar--socialicon{
+    background-color: rgb(222, 224, 224);
+}
+.profile__image{
+    min-height: 100px;
+    background-image: url("https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/advice/maps-satellite-images/satellite-image-of-globe.jpg");
+    background-size:100% 100%;
+}
+.profile__user{
+    min-height:100px ;
+    margin-top: -24px;
+}.gallery{
+    height: 150px;
+}
