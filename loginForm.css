@@ -1,0 +1,98 @@
+body{
+    background: rgb(136,86,228);
+    background: linear-gradient(90deg, rgba(136,86,228,1) 0%, rgba(26,75,88,1) 0%, rgba(53,116,133,1) 0%, rgba(47,118,136,1) 100%, rgba(48,108,124,1) 100%);
+    align-items: center;
+    text-align: center;
+    padding: 80px;
+}
+.outer{
+    min-height:300px;
+    width: 40%;
+    background-color:white;
+    border-radius: 5px;
+    color: #1aaeb0;
+    font-size: 20px;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+}
+.forminputs{
+    height: 40px;
+    width: 70%;
+    border: 1px solid;
+    border-radius: 50px;
+    margin: 30px auto;
+}
+.forminputs__inp{
+    height: 35px;
+    border: none;
+    width: 70%;
+    background: none;
+    font-size: 18px;
+    margin-left: 4%;
+}
+.formbtn{
+    height: 40px;
+    width: 70%;
+    background:#1aaeb0;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    font-size: 18px;
+    margin: auto;
+}
+.formdivide{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    color: black;
+}
+.formdivide>hr{
+    width: 30%;
+}
+.formsocial{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+} 
+.formsocial__twite{
+    display: inline-flex;
+    font-size: 12px;
+    background: #1aaeb0;
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+}
+.formsocial__fb{
+    font-size: 32px;
+    margin-left: 10px;
+}
+@media screen and (max-width: 1050px){
+    .outer{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 800px){
+    .outer{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 550px){
+    body
+    {
+        padding: 0;
+    }
+    .outer{
+        width: 90%;
+        margin: auto;
+    }
+    .forminputs{
+        width: 90% !important;
+    }
+}
+
+
