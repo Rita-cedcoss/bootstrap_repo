@@ -1,8 +1,13 @@
+/* navbar */
 .navbar__grow{
     flex-grow: 0 !important;
 }
 .navbar--socialicon{
     background-color: rgb(222, 224, 224);
+}
+/* profife section */
+.profile{
+    background-color: rgb(236, 236, 236);
 }
 .profile__image{
     min-height: 100px;
@@ -12,6 +17,18 @@
 .profile__user{
     min-height:100px ;
     margin-top: -24px;
-}.gallery{
+}
+/* gallery section */
+.gallery{
+    min-height: 150px;
+}
+.gallery__img{
     height: 150px;
+}
+/* follow section */
+.follow{
+    background-color: rgb(26, 24, 24) !important;
+}
+.follow__bg{
+    background: rgb(226 228 253) !important;
 }
